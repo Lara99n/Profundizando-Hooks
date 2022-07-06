@@ -2,10 +2,8 @@ Profundizando Hooks
 
 
 <li>Crear otros customHooks</li>
-
 <li>useState</li>
-
-useCallback
+<li>useCallback</li>
 <li>useCounter - Personalizado</li>
 <li>useEffect y sus precauciones
 </li>
