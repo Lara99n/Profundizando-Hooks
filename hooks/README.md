@@ -13,3 +13,18 @@
 <li>useLayoutEffect</li>
 <li>Memo</li>
 <li>useMemo</li>
+
+<h1> Extra - Reducer </h1>
+<li>useReducer</li>
+<li>Reducers</li>
+<li>Teoría de un reducer</li>
+<li>Aplicación de TODOs</li>
+<li>CRUD local</li>
+
+
+
+
+
+
+
+
