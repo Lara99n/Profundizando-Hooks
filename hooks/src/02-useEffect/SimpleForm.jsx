@@ -1,4 +1,3 @@
-import { useEffect } from "react";
 import { useState } from "react";
 import { Message } from "./Message";
 
@@ -7,30 +6,6 @@ export const SimpleForm = () => {
     username: "Lara",
     email: "",
   });
-
-  //                         !!!!!!!!!!!UseEffect!!!!!!!!!!!!!!!!!
-  //  useEffect(() => {
-  //  console.log("Se dispara cada vez q haya un cambio");
-  // });
-
-  //  useEffect(() => {
-  //  console.log("Se va a disparar 1 unica vez, cuando se monta");
-  //  }, []);
-
-  //  useEffect(() => {
-  //  console.log("Se va a disparar cada vez que el estado/formulario cambie");
-  // }, [state]);
-
-  //  useEffect(() => {
-  //  console.log("Se va a disparar cada vez que el email cambie");
-  // }, [email]);
-
-  //    useEffect(() => {
-  //    console.log("Mensaje montado");
-  //    return () => {
-  //    console.log("Mensaje desmontado");
-  //   };
-  // }, []);
 
   const { username, email } = state;
 
