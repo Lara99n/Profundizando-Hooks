@@ -1,5 +1,6 @@
 import ReactDOM from "react-dom/client";
-import { Padre } from "./07-tarea-memo/Padre";
+import { TodoApp } from "./08-useReducer/TodoApp";
+//import { Padre } from "./07-tarea-memo/Padre";
 //import { CallbackHooks } from "./06-Memos/CallbackHooks";
 //import { CounterApp } from "./01-useState/CounterApp";
 //import { CounterWithCustomHooks } from "./01-useState/CounterWithCustomHooks";
@@ -11,7 +12,8 @@ import { Padre } from "./07-tarea-memo/Padre";
 //import { Layout } from "./05-useLayoutEffect/Layout";
 //import { Memorize } from "./06-Memos/Memorize";
 //import { MemoHook } from "./06-Memos/MemoHook";
+//import "./08-useReducer/intro-reducer";
 
 import "./index.css";
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<Padre />);
+root.render(<TodoApp />);

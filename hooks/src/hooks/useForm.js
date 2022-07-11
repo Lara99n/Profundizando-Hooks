@@ -16,6 +16,7 @@ export const useForm = (initialForm = {}) => {
   };
 
   return {
+    ...state,
     state,
     onInputChange,
     onResetForm,
