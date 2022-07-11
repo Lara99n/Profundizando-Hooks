@@ -1,5 +1,5 @@
 import ReactDOM from "react-dom/client";
-import { TodoApp } from "./08-useReducer/TodoApp";
+//import { TodoApp } from "./08-useReducer/TodoApp";
 //import { Padre } from "./07-tarea-memo/Padre";
 //import { CallbackHooks } from "./06-Memos/CallbackHooks";
 //import { CounterApp } from "./01-useState/CounterApp";
@@ -13,7 +13,14 @@ import { TodoApp } from "./08-useReducer/TodoApp";
 //import { Memorize } from "./06-Memos/Memorize";
 //import { MemoHook } from "./06-Memos/MemoHook";
 //import "./08-useReducer/intro-reducer";
+import { MainApp } from "./useContext/MainApp";
+import { BrowserRouter } from "react-router-dom";
 
 import "./index.css";
+
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<TodoApp />);
+root.render(
+  <BrowserRouter>
+    <MainApp />
+  </BrowserRouter>
+);
